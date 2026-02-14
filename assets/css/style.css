@@ -68,7 +68,7 @@
   --tp-common-blue: #6865FF;
   --tp-common-blue-2: #1117A0;
   --tp-common-blue-3: #5138EE;
-  --tp-common-blue-4: #600EE4;
+  --tp-common-blue-4: #649c24;
   --tp-common-red: #FF3C82;
   --tp-heading-primary: #000229;
   --tp-grey-1: #5F6368;
@@ -1066,15 +1066,15 @@ input[type=color] {
 }
 
 .tp-btn-purple:hover {
-  color: var(--tp-common-white);
-  background: #6B14FA;
+  color: white;
+  background: #649c24;
 }
 
 .tp-btn-purple-lg {
   height: 60px;
   line-height: 60px;
-  color: var(--tp-common-white);
-  background: #6B14FA;
+  color: white;
+  background: #649c24;
   border-radius: 30px;
   display: inline-block;
   position: relative;
@@ -1086,14 +1086,14 @@ input[type=color] {
 }
 
 .tp-btn-purple-lg:hover {
-  color: var(--tp-common-white);
-  background: #6B14FA;
+  color: white;
+  background: #649c24;
 }
 
 .tp-btn-yellow-solid {
   height: 60px;
   line-height: 60px;
-  color: var(--tp-common-black);
+  color: black;
   background: #DDFF7B;
   border-radius: 30px;
   display: inline-block;
@@ -1111,7 +1111,7 @@ input[type=color] {
 }
 
 .tp-btn-yellow-solid.circle-effect::after {
-  background-color: var(--tp-common-white);
+  background-color: white;
   border-radius: 95px;
   bottom: -100%;
   content: "";
@@ -1204,19 +1204,21 @@ input[type=color] {
 }
 
 .submit-btn {
-  background-color: var(--tp-common-blue-4);
+  background-color: #649c24;
   text-align: center;
   height: 55px;
   padding: 0px 20px;
   display: inline-block;
   line-height: 55px;
-  color: var(--tp-common-white);
+  color: white;
   font-weight: 600;
   font-size: 16px;
 }
 
 .submit-btn:hover {
-  color: var(--tp-common-white);
+  color: #649c24;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .signin-btn {
@@ -8204,7 +8206,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .tp-platform-inner .col-custom {
   background: #F5F3F8;
-  box-shadow: 0px -3px 0px #6B14FA;
+  box-shadow: 0px -3px 0px #649c24;
 }
 
 .tp-platform-inner .tp-panel-title {
@@ -8228,7 +8230,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .tp-panel-title {
-  width: 200px;
+  width: 230px;
   transform: rotate(90deg) translate(90px, 88px);
   font-weight: 500;
   font-size: 22px;
@@ -8236,6 +8238,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #FFFFFF;
   opacity: 0.7;
   margin-bottom: 0;
+  margin-top: 26px ;
+  padding-top: 26px ;
+  
 }
 
 .tp-panel-title.child-one {
@@ -16362,6 +16367,11 @@ only screen and (min-width: 768px) and (max-width: 991px),
   transition: 0.3s;
 }
 
+.tp-price__btn-bg button:hover{
+  color: #649c24;
+  
+}
+
 .tp-price__btn-bg button.active {
   color: var(--tp-common-white);
 }
@@ -16542,9 +16552,9 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .price-inner-white-bg .tp-price-top-item.active .tp-price-top-title-wrapper .tp-btn-service {
-  background-color: var(--tp-common-blue-4);
+  background-color: #649c24;
   color: var(--tp-common-white);
-  border-color: var(--tp-common-blue-4);
+  border-color: #649c24;
 }
 
 .price-inner-white-bg .tp-price-top-item.active .tp-price-top-title-wrapper .tp-btn-service:hover {
@@ -16574,9 +16584,9 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .price-inner-white-bg .tp-price-top-title-wrapper .tp-btn-service:hover {
-  background-color: var(--tp-common-blue-4);
+  background-color: #649c24;
   color: var(--tp-common-white);
-  border-color: var(--tp-common-blue-4);
+  border-color: #649c24;
 }
 
 .price-inner-white-bg .tp-price-feature-tooltip {
@@ -16619,7 +16629,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-price__btn-inner .tp-price__btn-bg .test {
-  background-color: var(--tp-common-blue-4);
+  background-color: #649c24;
 }
 
 .pr-feature-wrapper {
@@ -16693,9 +16703,9 @@ only screen and (min-width: 768px) and (max-width: 991px),
   height: 26px;
   width: 26px;
   border-radius: 50%;
-  color: var(--tp-common-blue-4);
+  color: #ffffff;
   font-size: 12px;
-  background: rgba(96, 14, 228, 0.06);
+  background: rgba(100, 156, 36, 1);
   line-height: 29px;
 }
 
@@ -17768,12 +17778,16 @@ only screen and (min-width: 768px) and (max-width: 991px),
   right: 0;
   height: 2px;
   width: 100%;
-  background-color: var(--tp-common-blue-4);
+  background-color: #000000;
   position: absolute;
   text-align: center;
   margin: 0 auto;
 }
 
+
+.postbox__apply-btn-border:hover:after {
+  background-color: #649c24;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .career-details-hide-wrapper .postbox__comment-form {
     margin-bottom: 0px;
@@ -17787,19 +17801,19 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-platform-inner .tp-section-subtitle-4 {
-  color: var(--tp-common-blue-4);
+  color: #649c24;
 }
 
 .tp-platform-inner .tp-section-subtitle-4::before {
-  background-color: var(--tp-common-blue-4);
+  background-color: #649c24;
 }
 
 .tp-platform-inner .tp-section-title-4 {
-  color: var(--tp-common-black);
+  color: black;
 }
 
 .tp-platform-inner .tp-platform-text p {
-  color: var(--tp-common-black);
+  color: black;
 }
 
 /*----------------------------------------*/
@@ -17842,7 +17856,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-error-header .header-bottom__main-menu-4 nav ul li a {
-  color: var(--tp-common-black);
+  color: black;
 }
 
 .error-title-sm {
