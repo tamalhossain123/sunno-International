@@ -175,6 +175,7 @@
 	const serviceswiper = new Swiper('.tp-project__slider-active', {
 		// Optional parameters
 		loop: true,
+		autoplay:true,
 		slidesPerView: 3,
         spaceBetween: 30,
 		breakpoints: {

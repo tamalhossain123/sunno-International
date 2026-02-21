@@ -57,19 +57,19 @@
   */
   --tp-common-white: #ffffff;
   --tp-common-black: #000229;
-  --tp-common-orange: #FF7A41;
-  --tp-common-purple: #FF75F9;
+  --tp-common-orange: #649C24;
+  --tp-common-purple: #649C24;
   --tp-common-green: #5FC33B;
-  --tp-common-green-2: #21B641;
-  --tp-common-yellow: #FFAB0A;
-  --tp-common-yellow-2: #FFCE57;
-  --tp-common-yellow-3: #F8FF35;
-  --tp-common-yellow-4: #FFC530;
-  --tp-common-blue: #6865FF;
-  --tp-common-blue-2: #1117A0;
-  --tp-common-blue-3: #5138EE;
-  --tp-common-blue-4: #649c24;
-  --tp-common-red: #FF3C82;
+  --tp-common-green-2: #649C24;
+  --tp-common-yellow: #649C24;
+  --tp-common-yellow-2: #649C24;
+  --tp-common-yellow-3: #649C24;
+  --tp-common-yellow-4: #649C24;
+  --tp-common-blue: #649C24;
+  --tp-common-blue-2: #649C24;
+  --tp-common-blue-3: #649C24;
+  --tp-common-blue-4: #649C24;
+  --tp-common-red: #649C24;
   --tp-heading-primary: #000229;
   --tp-grey-1: #5F6368;
   --tp-grey-2: #9A9DA7;
@@ -80,10 +80,10 @@
   --tp-grey-7: #F6F5FA;
   --tp-grey-8: #F7F9FB;
   --tp-text-body: #5F6368;
-  --tp-theme-1: #6865FF;
-  --tp-theme-2: #AEE87C;
-  --tp-theme-3: #FFA8B8;
-  --tp-theme-4: #F1A0AF;
+  --tp-theme-1: #649C24;
+  --tp-theme-2: #649C24;
+  --tp-theme-3: #649C24;
+  --tp-theme-4: #649C24;
   --tp-border-1: #EDF5FA;
   --tp-border-2: #EBECF0;
 }
@@ -1241,8 +1241,8 @@ input[type=color] {
 
 .tp-btn-inner {
   display: inline-block;
-  background: #649c24;
-  color: var(--tp-common-white);
+  background: #649C24;
+  color: #fff;
   height: 50px;
   line-height: 50px;
   border-radius: 30px;
@@ -2466,7 +2466,7 @@ input[type=color] {
   width: 480px;
   bottom: 0;
   box-shadow: 0 16px -32px 0 rgba(0, 0, 0, 0.8);
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-theme-1);
   z-index: 9999;
   padding: 50px;
   scrollbar-width: none;
@@ -2552,8 +2552,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   transition-duration: 0.3s;
   height: 50px;
   width: 50px;
-  background-color: var(--tp-common-white);
-  color: var(--tp-common-black);
+
+  color: white;
 }
 
 .tpoffcanvas__close-btn button i {
@@ -2628,7 +2628,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .tpoffcanvas__social .social-icon a:hover {
-  background-color: var(--tp-theme-1);
+  background-color: black;
   color: var(--tp-common-white);
 }
 
@@ -2861,7 +2861,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(229, 174, 255, 0.2);
+  background: #649c24;
   backdrop-filter: blur(130px);
 }
 
@@ -2895,6 +2895,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   margin-bottom: 15px;
   display: inline-block;
 }
+
 
 .breadcrumb__client-info p {
   font-weight: 600;
@@ -4192,7 +4193,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .mean-container .mean-nav ul li a:hover {
-  color: var(--tp-theme-3);
+  color: black;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -4854,7 +4855,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-bottom__main-menu-5 nav ul li a:hover {
-  color: var(--tp-common-blue-3);
+  color: #649c24;
 }
 
 .header-bottom__main-menu-5 nav ul li .submenu {
@@ -4876,11 +4877,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-bottom__action a:hover {
-  color: #649c24;
+  color: black;
 }
 
 .header-bottom__action a:hover svg {
-  color: #649c24;
+  color: black;
 }
 
 .header-bottom__action a span {
@@ -4915,20 +4916,26 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-bottom__action-4 a:hover {
-  color: var(--tp-common-yellow-3);
+  color: black;
 }
 
 .header-bottom__action-4 a:hover svg {
-  color: var(--tp-common-yellow-3);
+  color: black;
 }
 
 .header-bottom__btn {
   line-height: 0;
 }
 
+
+/* .tp-cta-area{
+  background: #f6f5fa;
+} */
+
 .header-bottom__btn a {
   margin-left: 25px;
 }
+
 
 @media (max-width: 767px) {
   .header-bottom__btn a {
@@ -10821,7 +10828,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   line-height: 12px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #9959FF;
+  color: #649c24;
   padding-bottom: 15px;
   display: inline-block;
 }
@@ -10836,7 +10843,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .inner-project-title:hover {
-  color: var(--tp-common-blue-3);
+  color: #649c24;
 }
 
 @media (max-width: 767px) {
@@ -10864,7 +10871,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .portfolio-filter button:hover {
-  border-color: var(--tp-common-blue-3);
+  border-color: #649c24;
 }
 
 .portfolio-filter button span {
@@ -10879,9 +10886,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .portfolio-filter button.active {
-  background-color: var(--tp-common-blue-3);
-  border-color: var(--tp-common-blue-3);
-  color: var(--tp-common-white);
+  background-color: #649c24;
+  border-color: #649c24;
+  color: white;
 }
 
 .pd-solution-paragraph {
@@ -13711,9 +13718,9 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .blog-details-social-box a:hover {
-  background-color: var(--tp-common-yellow-4);
-  border-color: var(--tp-common-yellow-4);
-  color: var(--tp-common-black);
+  background-color: black;
+  border-color: black;
+  color: white;
 }
 
 .blog-details-big-img {
@@ -13754,7 +13761,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .postbox__details-checkmark ul li i {
   height: 20px;
   width: 20px;
-  background-color: var(--tp-common-black);
+  background-color: #649C24;
   color: var(--tp-common-white);
   border-radius: 50%;
   line-height: 20px;
@@ -17107,7 +17114,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .team-details-social-info a:hover {
-  background-color: var(--tp-common-blue-3);
+  background-color: #649c24;
   color: var(--tp-common-white);
 }
 
@@ -18405,6 +18412,12 @@ only screen and (min-width: 768px) and (max-width: 991px),
   text-align: center;
   line-height: 60px;
   border: 1px solid #EEEEEE;
+}
+
+
+.header-signin-bar button:hover{
+  background: #649C24;
+  color: white !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -19852,7 +19865,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .footer-widget-5 .tp-footer__social-3 a:hover i {
-  color: var(--tp-common-blue-3);
+  color: #649c24;
 }
 
 .tp-footer-style-2 .tp-copyright__lang-submenu li a:hover {
