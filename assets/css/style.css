@@ -8790,7 +8790,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   line-height: 70px;
   display: inline-block;
   border-radius: 50%;
-  color: var(--tp-common-black);
+  color: black;
   font-size: 18px;
   margin-right: 20px;
   transition: 0.3s;
@@ -8801,8 +8801,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .ab-company-video a:hover {
-  background-color: var(--tp-theme-1);
-  color: var(--tp-common-white);
+  background-color: black;
+  color: white;
 }
 
 .ab-company-video span {
@@ -8838,7 +8838,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  color: #6B14FA;
+  color: #649C24;
   font-style: normal;
 }
 
@@ -8912,7 +8912,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-size: 12px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #ABABB0;
+  color: #649C24;
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -9007,8 +9007,8 @@ only screen and (min-width: 768px) and (max-width: 991px),
   background: -ms-linear-gradient(-90deg, rgba(8, 8, 41, 0.12) 0%, rgb(255, 255, 255) 91%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px transparent;
-  -webkit-text-fill-color: #fff;
-  color: #fff;
+  -webkit-text-fill-color: #ffffff;
+  color: #649C24;
 }
 
 .job-post-box {

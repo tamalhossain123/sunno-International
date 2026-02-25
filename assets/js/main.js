@@ -212,6 +212,7 @@
 		slidesPerView: 4,
         spaceBetween: 30,
 		arrows:true,
+		autoplay:true,
 		breakpoints: {
 			'1200': {
 				slidesPerView: 4,
@@ -250,6 +251,7 @@
 		slidesPerView: 1,
 		effect:'fade',
 		arrows:true,
+		autoplay:true,
 		breakpoints: {
 			'1200': {
 				slidesPerView: 1,
@@ -281,6 +283,7 @@
 		loop: true,
 		slidesPerView: 5,
         spaceBetween: 30,
+		autoplay:true,
 		breakpoints: {
 			'1200': {
 				slidesPerView: 5,
@@ -313,6 +316,7 @@
 		loop: true,
 		slidesPerView: 3,
         spaceBetween: 30,
+		autoplay:true,
 		breakpoints: {
 			'1200': {
 				slidesPerView: 3,
@@ -368,6 +372,7 @@
 			slidesToScroll: 1,
 			arrows: false,
 			fade: false,
+			autoplay:true,
 			asNavFor: '.tp-testimonial__img-active'
 		});
 		
@@ -456,6 +461,7 @@
 			slidesToScroll: 1,
 			dots: false,
 			arrows: true,
+			autoplay:true,
 			prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-angle-left"></i></button>',
 			nextArrow: '<button type="button" class="slick-next"><i class="fal fa-angle-right"></i></button>',
 			appendArrows: $(".tp-test-arrow"),
@@ -658,6 +664,7 @@
 		slidesToScroll: 1,
 		dots: false,
 		arrows: true,
+		autoplay:true,
 		prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-angle-left"></i></button>',
 		nextArrow: '<button type="button" class="slick-next"><i class="fal fa-angle-right"></i></button>',
 		responsive: [
