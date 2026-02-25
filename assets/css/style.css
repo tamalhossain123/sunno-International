@@ -17727,6 +17727,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .career-details-social-box a.instagram i {
   background: linear-gradient(261.91deg, #B900B4 0%, #F50000 40%, #FFD723 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 0.3s;
   font-weight: 500;
