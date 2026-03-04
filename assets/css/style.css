@@ -18983,6 +18983,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
   margin-bottom: 0;
 }
 
+.tp-footer__content .ctg li {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(245, 245, 250, 0.6);
+  transition: 0.3s;
+}
+
 .tp-footer__content ul li a {
   font-weight: 500;
   font-size: 16px;
